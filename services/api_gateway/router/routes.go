@@ -1,9 +1,9 @@
 package router
 
 import (
-	dummycontroller "github.com/XDcobra/gofiber-starter-stack/controller/DummyController"
-	mysqlcontroller "github.com/XDcobra/gofiber-starter-stack/controller/MySQLController"
-	rediscontroller "github.com/XDcobra/gofiber-starter-stack/controller/RedisController"
+	dummycontroller "github.com/XDcobra/gofiber-license-key-system/controller/DummyController"
+	mysqlcontroller "github.com/XDcobra/gofiber-license-key-system/controller/MySQLController"
+	rediscontroller "github.com/XDcobra/gofiber-license-key-system/controller/RedisController"
 	"github.com/gofiber/fiber/v2"
 )
 

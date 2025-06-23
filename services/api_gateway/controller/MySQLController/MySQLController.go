@@ -2,7 +2,7 @@ package MySQLController
 
 import (
 	"fmt"
-	MySQlModels "github.com/XDcobra/gofiber-starter-stack/model/MySQL"
+	MySQlModels "github.com/XDcobra/gofiber-license-key-system/model/MySQL"
 	"gorm.io/gorm"
 
 	_ "github.com/go-sql-driver/mysql"

@@ -1,6 +1,6 @@
-# GoFiber Starter Stack
+# GoFiber License Key System
 
-🚀 A production-ready Go Fiber microservices template with Docker Compose orchestration, featuring Redis clustering, MySQL database, Prometheus monitoring, and Grafana visualization.
+🚀 Production-ready Go Fiber microservices template including a master/client apikey authentification system with Docker Compose, Redis clustering, MySQL, Prometheus monitoring, and Grafana visualization.
 
 ---
 
@@ -61,14 +61,14 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/XDcobra/gofiber-starter-stack.git
+   git clone https://github.com/XDcobra/gofiber-license-key-system.git
    cd gofiber-starter-stack
    ```
 
 2. **Initialize Go module (if needed)**
    ```bash
    cd services/api_gateway
-   go mod init github.com/XDcobra/gofiber-starter-stack
+   go mod init github.com/XDcobra/gofiber-license-key-system
    go mod tidy
    cd ../..
    ```

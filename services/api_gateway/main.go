@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	dummycontroller "github.com/XDcobra/gofiber-starter-stack/controller/DummyController"
-	mysqlcontroller "github.com/XDcobra/gofiber-starter-stack/controller/MySQLController"
-	rediscontroller "github.com/XDcobra/gofiber-starter-stack/controller/RedisController"
-	dbmanagementMySQL "github.com/XDcobra/gofiber-starter-stack/database/MySQL"
-	dbmanagementRedis "github.com/XDcobra/gofiber-starter-stack/database/Redis"
-	router "github.com/XDcobra/gofiber-starter-stack/router"
+	dummycontroller "github.com/XDcobra/gofiber-license-key-system/controller/DummyController"
+	mysqlcontroller "github.com/XDcobra/gofiber-license-key-system/controller/MySQLController"
+	rediscontroller "github.com/XDcobra/gofiber-license-key-system/controller/RedisController"
+	dbmanagementMySQL "github.com/XDcobra/gofiber-license-key-system/database/MySQL"
+	dbmanagementRedis "github.com/XDcobra/gofiber-license-key-system/database/Redis"
+	router "github.com/XDcobra/gofiber-license-key-system/router"
 	"log"
 )
 
